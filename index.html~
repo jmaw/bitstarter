@@ -12,8 +12,8 @@
 	
     <link  href="./resources/buttons/social-buttons.css" rel="stylesheet" type="text/css">    
 	
-    <script src="./resources/scripts/jquery.js"></script>
-    <script src="./resources/scripts/bootstrap.js"></script>
+    <script src="./resources/script/jquery.js"></script>
+    <script src="./resources/script/bootstrap.js"></script>
 	
     <link href="./resources/fonts/fonts1.css" rel="stylesheet" type="text/css">
     <link href="./resources/fonts/fonts2.css" rel="stylesheet" type="text/css">
