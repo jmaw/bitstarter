@@ -104,18 +104,15 @@
             <a class="coinbase-button" data-code="6d2a1a38384088fdaf43a1d88c322a77" data-button-style="custom_large" href="https://coinbase.com/checkouts/6d2a1a38384088fdaf43a1d88c322a77">Pay With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
           </div>
           <div class="span8 offset2 social">
-<!-- AddThis Button BEGIN -->
-<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-<a class="addthis_button_preferred_1"></a>
-<a class="addthis_button_preferred_2"></a>
-<!-- a class="addthis_button_preferred_3"></a -->
-<!-- a class="addthis_button_preferred_4"></a -->
-<a class="addthis_button_compact"></a>
-<a class="addthis_counter addthis_bubble_style"></a>
-</div>
-<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51fea3fa64fbb6a4"></script>
-<!-- AddThis Button END -->
+             <!-- AddThis Button BEGIN -->
+             <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+                <a class="addthis_button_preferred_1"></a>
+                <a class="addthis_button_preferred_2"></a>
+                <a class="addthis_button_compact"></a>
+                <a class="addthis_counter addthis_bubble_style"></a>
+             </div>
+             <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51fea3fa64fbb6a4"></script>
+             <!-- AddThis Button END -->
           </div>
         </div>
       </div>
@@ -123,47 +120,46 @@
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
 		  <p><b>The freelance market</b></p>
-		  <p> <!--   http://www.forbes.com/sites/groupthink/2013/07/03/forget-the-jobs-report-focus-on-the-freelance-economy/  -->
-		   There is one important fact of the current and future job market—the state of the freelance market. The number of freelance workers is projected to outpace full-time workers by 2020.  The economy is rapidly shifting to a more contingent workforce, with recent estimates by the Freelancers Union  of 42 million American independent workers, up from 10.3 million workers in 2005, according to Forbes.
-		  </p>
-		  
+		  <p> According to Forbes, there is one important fact of the current and future job market—the state of the freelance market. The number of freelance workers is projected to outpace full-time workers by 2020.  The economy is rapidly shifting to a more contingent workforce, with recent estimates by the Freelancers Union of 42 million American independent workers, up from 10.3 million workers in 2005</p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="images/480x300.png">
+          <img class="img-polaroid" src="images/freelancers.png">
         </div>
       </div>
 
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="images/480x300.png">
+          <img class="img-polaroid" src="images/freelance-union.png">
         </div>
         <div class="span5 copy">
-        <p>
-		</p>
+        <p><b>Delays in payments</b></p>
+        <p>"Delays in payment usually aren't deliberate on the client's part," notes Sara Horowitz, who founded and runs Freelancers Union, an association that offers health insurance and other resources to the self-employed. "It's just that your invoices get lumped in with all the other accounts payable -- and, especially since the recession, more companies are pushing those out beyond 30 days to 60, or even 90." Intentional or not, she agrees with you that the damage to individuals' livelihoods is "not acceptable." 
+	</p>
         </div>
       </div>
 
       <div class="row-fluid section1">
         <div class="span5 offset1 copy copy-right">
-          <p><b>Payment situation</b></p>
+          <p><b>Freelancers loses</b></p>
           <p>
-            According to vWorker, now part of freelancer.com: "it's an unfortunate fact that 42% of traditional freelancers are paid late or never at all, and lose $ 4.7 billion a year".           
+           According to vWorker, now part of freelancer.com: "it's an unfortunate fact that 42% of traditional freelancers in the USA, are paid late or never at all, and lose $ 4.7 billion a year".
+One recent study of self-employed people in New York state, found that 316,000 of them (about 35%) were paid late at least once during the preceding year, and some 214,000 (14%) did work for one or more clients who never paid them at all. 
           </p>          
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="images/480x300.png">
+          <img class="img-polaroid" src="images/no-money.png">
         </div>
       </div>
 
 
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="images/480x300.png">
+          <img class="img-polaroid" src="images/software-industry.png">
         </div>
         <div class="span5 copy">
-          <p><b>Appreciating Value</b></p>
+          <p><b>Freelancers in Software Industry</b></p>
           <p> 
-            As you can see from the  <a target="_blank" href="http://www.bitcoinexchangerate.org/">Bitcoin exchange rate</a>, during the last 6 months the currency has stabilized and has been steadily increasing in value on a daily basis. During the first few years of it’s inception, the value of Bitcoins were initially highly volatile. 
+            In the software industry, freelance software developers are never get paid on time and only 3.2% of freelance Web developers got paid on time during the year 2012 (Please see 2012 Freelance Industry Report by Ed Gandia). This is awful considering that IT spending is predicted to reach $3.7 trillion worldwide in 2013, a 2 percent increase over last year's levels, according to research firm Gartner.
           </p>
         </div>
       </div>
@@ -172,28 +168,27 @@
       <div class="row-fluid section1">
         <div class="span5 offset1 copy copy-right">
           <p><b>Secure Project Payment</b></p>
-          <p>The great Bitcoin advantages and too much freedom to use them, can be good or bad for businesses. The only thing we want to do, is to put a little bit of order in the chaos: we want software developers to earn money after successfully finish their projects, and we want project owners and enterprises to pay and enjoy the results. No tricks, no cheating. Everybody wins with Secure Project Payment.    
+          <p>Secure Project Payment is a payment service on the Internet based on Bitcoin. It's primary goal is to organize and control the payments in software projects, especially when we are using outsourcing or freelance developers. It's second goal is to protect both developers and project owners from cheating or unfair situations. And it's third and very important goal is to empower the use of Bitcoin as a valid currency in transactions associated with software development projects by supporting the payment phase.     
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="images/480x300.png">
+          <img class="img-polaroid" src="images/spp.png">
         </div>
       </div>
 
-</div> <!-- container -->
-<!--
-      <div class="row-fluid section1">
+       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="images/collage2.png">
+          <img class="img-polaroid" src="images/bitcoin5.png">
         </div>
         <div class="span5 copy">
-          <p><b>What is exactly Secure Project Payment?</b></p>
+          <p><b>We trust Bitcoin</b></p>
           <p> 
-
+If we trust in Bitcoin's operations and transactions, we are open to create more services and generate new values. We are putting a little bit of order to the chaos by making payments  more secure for both project owners and developers. Project owners  will have more options and broader horizons to combine skills, knowledge and prices with people from all over the world and Bitcoin will get credited as a valuable currency.
           </p>
         </div>
       </div>
--->
+</div> <!-- container -->
+
 <div class="gray_background">
   <div class="container">
   
@@ -201,17 +196,17 @@
         <div class="span10 offset1">
             <div class="span6">
 			  <center>
-			  <img src="images/waterfall-icon.png" style="width:64px;height=64px"/>
-              <h2>Waterfall Projects</h2>
+			  <img src="images/payment-icon.png" style="width:92px;height=92px"/>
+              <h2>Payment projects</h2>
 			  </center>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p>Secure Project Payment is focused on payments schedules or how payments are made from one party to another. In this case, project owners can organize how to pay developers at different phases of the software project. We are not dealing with deadlines or critical path, normally considered by project development methodologies. We create a protocol to pay, once the job is done and accepted. </p>
             </div><!--/span-->
 			<div class="span6">
 			  <center>
-			  <img src="images/agile-icon.png" style="width:64px;height=64px"/>
-              <h2>Agile Projects</h2>
+			  <img src="images/calculator-icon.png" style="width:92px;height=92px"/>
+              <h2>Payment schedules</h2>
 			  </center>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p>We support any traditional payment schedule: paying a deposit at the beginning, paying in every project milestone or paying at the end. All payments are regulated by the Secure Project Payment terms and conditions including cancellation policies to avoid cheating by project owners. </p>
             </div><!--/span-->
 		</div>	
 	</div>	
@@ -220,17 +215,17 @@
         <div class="span10 offset1">
             <div class="span6">
 			  <center>
-			  <img src="images/payment-icon.png" style="width:64px;height=64px"/>
-              <h2>Payment Schedules</h2>
+			  <img src="images/waterfall-icon.png" style="width:64px;height=64px"/>
+              <h2>Waterfall projects</h2>
 			  </center>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p>The waterfall model is a sequential design process, often used in software development processes, in which progress is seen as flowing steadily downwards (like a waterfall) through the phases of Conception, Initiation, Analysis, Design, Construction, Testing, Deployment, and Maintenance. As all phases are related in a way you will not have the product until Deployment, it's more likely to define payment milestones in certain phases or at the end of the project.</p>
             </div><!--/span-->
 			<div class="span6">
 			  <center>
-			  <img src="images/bitcoin3.png" style="width:72px;height=72px"/>
-              <h2>Bitcoin Power</h2>
+			  <img src="images/agile-icon.png" style="width:72px;height=72px"/>
+              <h2>Agile projects</h2>
 			  </center>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p>Agile software development is  based on iterative and incremental development, where requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. As you have the software product practically in every iteration, is more likely to define payment milestones when the iterations have finished. </p>
             </div><!--/span-->
 		</div>	
 	</div>	
@@ -239,17 +234,17 @@
         <div class="span10 offset1">
             <div class="span6">
 			  <center>
-			  <img src="images/cup-icon.png" style="width:64px;height=64px"/>
-              <h2>Advantages</h2>
+			  <img src="images/rules-icon.png" style="width:64px;height=64px"/>
+              <h2>Simple rules</h2>
 			  </center>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p>There are two very simple rules we must follow: we have to do well the job if we want to get the money. And we have to pay money if we want to create value. Secure Project Payment will create a platform to enforce these rules. Developers will work calmly knowing that the reward for a job well done is protected. Project owners, knowing that their investment is protected from traps and trickery, will publish more projects.</p>
             </div><!--/span-->
 			<div class="span6">
 			  <center>
-			  <img src="images/reward-icon.png" style="width:64px;height=64px"/> 
-              <h2>Rewards</h2>
+			  <img src="images/bitcoin3.png" style="width:128px;height=128px"/> 
+              <h2>Crowdfunding</h2>
 			  </center>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p>If you want to contribute and be part of Secure Project Payment, either because you are a developer sick and tired of loosing the result of your job, or you are a project manager who wants to pay projects using Bitcoin or you are a Bitcoin lover and want to contribute to empower the use of this revolutionary currency, you will be welcome.</p>
             </div><!--/span-->
 		</div>	
 	</div>	
@@ -465,7 +460,7 @@
 <div class="accordion-group">
   <div class="accordion-heading">
     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse16">
-    Can be the developer a company?
+    Can the developer be a company?
     </a>
   </div>
   <div id="collapse16" class="accordion-body collapse">
