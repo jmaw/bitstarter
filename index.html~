@@ -140,7 +140,7 @@
 
       <div class="row-fluid section1">
         <div class="span5 offset1 copy copy-right">
-          <p><b>Freelancers loses</b></p>
+          <p><b>Freelancers losses</b></p>
           <p>
            According to vWorker, now part of freelancer.com: "it's an unfortunate fact that 42% of traditional freelancers in the USA, are paid late or never at all, and lose $ 4.7 billion a year".
 One recent study of self-employed people in New York state, found that 316,000 of them (about 35%) were paid late at least once during the preceding year, and some 214,000 (14%) did work for one or more clients who never paid them at all. 
@@ -157,9 +157,9 @@ One recent study of self-employed people in New York state, found that 316,000 o
           <img class="img-polaroid" src="images/software-industry.png">
         </div>
         <div class="span5 copy">
-          <p><b>Freelancers in Software Industry</b></p>
+          <p><b>Freelancers in the Software Industry</b></p>
           <p> 
-            In the software industry, freelance software developers are never get paid on time and only 3.2% of freelance Web developers got paid on time during the year 2012 (Please see 2012 Freelance Industry Report by Ed Gandia). This is awful considering that IT spending is predicted to reach $3.7 trillion worldwide in 2013, a 2 percent increase over last year's levels, according to research firm Gartner.
+            In the software industry, freelance software developers never get paid on time and only 3.2% of freelance Web developers got paid on time during the year 2012 (Please see 2012 Freelance Industry Report by Ed Gandia). This is awful considering that IT spending is predicted to reach $3.7 trillion worldwide in 2013, a 2 percent increase over last year's levels, according to research firm Gartner.
           </p>
         </div>
       </div>
@@ -218,14 +218,14 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
 			  <img src="images/waterfall-icon.png" style="width:64px;height=64px"/>
               <h2>Waterfall projects</h2>
 			  </center>
-              <p>The waterfall model is a sequential design process, often used in software development processes, in which progress is seen as flowing steadily downwards (like a waterfall) through the phases of Conception, Initiation, Analysis, Design, Construction, Testing, Deployment, and Maintenance. As all phases are related in a way you will not have the product until Deployment, it's more likely to define payment milestones in certain phases or at the end of the project.</p>
+              <p>The waterfall model is a sequential design process, often used in software development processes, in which progress is seen as flowing steadily downwards (like a waterfall) through the phases of Conception, Initiation, Analysis, Design, Construction, Testing, Deployment, and Maintenance. As all phases are related in a way the product is not ready until Deployment,then it's more likely to define payment milestones in certain phases or at the end of the project.</p>
             </div><!--/span-->
 			<div class="span6">
 			  <center>
 			  <img src="images/agile-icon.png" style="width:72px;height=72px"/>
               <h2>Agile projects</h2>
 			  </center>
-              <p>Agile software development is  based on iterative and incremental development, where requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. As you have the software product practically in every iteration, is more likely to define payment milestones when the iterations have finished. </p>
+              <p>Agile software development is  based on iterative and incremental development, where requirements and solutions evolve through the collaboration between self-organizing, cross-functional teams. As the software product is practically finished in every iteration, it's easier to define payment milestones.</p>
             </div><!--/span-->
 		</div>	
 	</div>	
@@ -237,14 +237,14 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
 			  <img src="images/rules-icon.png" style="width:64px;height=64px"/>
               <h2>Simple rules</h2>
 			  </center>
-              <p>There are two very simple rules we must follow: we have to do well the job if we want to get the money. And we have to pay money if we want to create value. Secure Project Payment will create a platform to enforce these rules. Developers will work calmly knowing that the reward for a job well done is protected. Project owners, knowing that their investment is protected from traps and trickery, will publish more projects.</p>
+              <p>There are two very simple rules we must follow: we have to do the job well if we want to get paid. And we have to pay money if we want to create value. Secure Project Payment will create a platform to enforce these rules. Developers will work calmly knowing that the reward for a job well done is protected. Project owners, knowing that their investment is protected from traps and trickery, will publish more projects.</p>
             </div><!--/span-->
 			<div class="span6">
 			  <center>
 			  <img src="images/bitcoin3.png" style="width:128px;height=128px"/> 
               <h2>Crowdfunding</h2>
 			  </center>
-              <p>If you want to contribute and be part of Secure Project Payment, either because you are a developer sick and tired of loosing the result of your job, or you are a project manager who wants to pay projects using Bitcoin or you are a Bitcoin lover and want to contribute to empower the use of this revolutionary currency, you will be welcome.</p>
+              <p>If you would like to contribute and be part of Secure Project Payment, either because you are a developer, sick and tired of losing the result of your job, or you are a project manager who wants to pay projects using Bitcoin, or perhaps you are a simply Bitcoin lover and want to contribute to empower the use of this revolutionary currency, you will be welcome.</p>
             </div><!--/span-->
 		</div>	
 	</div>	
@@ -278,7 +278,7 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse1" class="accordion-body collapse">
      <div class="accordion-inner">
-     Secure Project Payment is a payment service on the Internet based on Bitcoin. It's primary goal is to organize and control the payments in software projects, especially when we are using outsourcing or freelance developers. It's second goal is to protect both developers and project owners from cheating or unfair situations. And it's third and very important goal is to empower the use of Bitcoin as a valid currency in transactions associated with software development projects by supporting the payment phase. If we trust in Bitcoin's operations and transactions, we are open to create more services and generate new values. We are putting a little bit of order to the chaos by making people trust in Bitcoin. 
+     Secure Project Payment is a payment service on the Internet based on Bitcoin. Its primary goal is to organize and control the payments in software projects, especially when we are using outsourcing or freelance developers. Its second goal is to protect both developers and project owners from cheating or unfair situations. And its third and very important goal is to empower the use of Bitcoin as a valid currency in transactions associated with software development projects by supporting the payment phase. If we trust in Bitcoin's operations and transactions, we are open to create more services and generate new values. We are putting a little bit of order to the chaos by making people trust in Bitcoin. 
      </div>
   </div>
 </div>
@@ -290,7 +290,7 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse2" class="accordion-body collapse">
      <div class="accordion-inner">
-     1. Create payments projects or projects to pay developers when they accomplish successfully their job 2. Organize payments to different developers in different project phases 3. Establish terms and conditions that everyone must accept before doing the job 4. Accept or reject payment requests in coordination with software project managers 5. Service fees are the lowest of the market 6. Payment fees are the lowest of the market 7. Dashboards and reports to track the state of payments for every project
+     1. Create payment projects or projects to pay developers when they successfully accomplish their job 2. Organize payments to different developers in different project phases 3. Establish terms and conditions that everyone must accept before doing the job 4. Accept or reject payment requests in coordination with software project managers 5. Service fees are the lowest in the market 6. Payment fees are the lowest in the market 7. Dashboards and reports to track the state of payments for every project
      </div>
   </div>
 </div>
@@ -302,7 +302,7 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse3" class="accordion-body collapse">
      <div class="accordion-inner">
-     1. Work only after they agree with payment conditions 2. Post payment requests after they have accomplished successfully their job 3. Receive payments absolutely free (no service or payment fees for developers) 4. Be protected by cancellation policies once the project is active and at least one milestone or phase was successfully accomplished and accepted
+     1. Work only after they agree with payment conditions 2. Post payment requests after they have successfully accomplished their job 3. Receive payments absolutely free (no service or payment fees for developers) 4. Be protected by cancellation policies once the project is active and at least one milestone or phase was successfully accomplished and accepted
      </div>
   </div>
 </div>
@@ -338,7 +338,7 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse6" class="accordion-body collapse">
      <div class="accordion-inner">
-     Secure Project Payment is a platform to empower and facilitates the use of the Bitcoin as a currency in project payments.Given the opportunity of using Bitcoin, in a secure and organized way to both project owners and developers, we open new possibilities for software project creation, we are contributing to use outsourcing and freelance development and we are moving the money to and from any place in the world helping to generate value.
+     Secure Project Payment is a platform to empower and facilitates the use of the Bitcoin as a currency in project payments.Given the opportunity of using Bitcoin, in a secure and organized way to both project owners and developers, we open up new possibilities for software project creation, we are contributing to the use of outsourcing and freelance development and we are moving the money to and from any place in the world helping to generate value.
      </div>
   </div>
 </div>
@@ -362,7 +362,7 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse8" class="accordion-body collapse">
      <div class="accordion-inner">
-     No limit. It depends of the duration and scope of your software project.
+     No limit. It depends on the duration and scope of your software project.
      </div>
   </div>
 </div>
@@ -398,7 +398,7 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse11" class="accordion-body collapse">
      <div class="accordion-inner">
-     The cancellation policies are rules established by the Secure Project Payment platform just to protect developers and project owners. The cancellation policies are part of the terms and conditions and you must accept to register as a user, no matter your role or membership.
+     The cancellation policies are rules established by the Secure Project Payment platform just to protect developers and project owners. The cancellation policies are part of the terms and conditions that you must accept to register as a user, no matter your role or membership.
      </div>
   </div>
 </div>
@@ -410,7 +410,7 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse12" class="accordion-body collapse">
      <div class="accordion-inner">
-     A service fee is what the project owners have to pay for platform services according to their membership. Those services includes the organization of your payment projects, the payment scheme selection, add or remove developers, accept or refuse payment request, to keep a log of every transaction, receive email notifications in every step of the process, dashboards and reports of all current or accomplished projects, etc.
+     A service fee is what the project owners have to pay for platform services according to their membership. Those services include the organization of your payment projects, the payment scheme selection, addition or removal of developers, acceptance or refusal of payment requests, to keep a log of every transaction, receive email notifications at every step of the process, dashboards and reports of all current or accomplished projects, etc.
      </div>
   </div>
 </div>
@@ -477,7 +477,7 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse17" class="accordion-body collapse">
      <div class="accordion-inner">
-     The free membership for developers is the capability offered by the Secure Project Payment platform, to collect the money and accepts the terms and conditions that regulates the payments. It lasts until the developer un-registers himself from the platform.
+     The free membership for developers is the capability offered by the Secure Project Payment platform, to collect the money and accept the terms and conditions that regulate the payments. It lasts until the developer un-registers himself from the platform.
      </div>
   </div>
 </div>
@@ -489,14 +489,14 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse18" class="accordion-body collapse">
      <div class="accordion-inner">
-     The free membership for project owners is the capability offered by the Secure Project Payment platform, for create payment projects and pay developers under the platform's terms and conditions accepted. It lasts until the project owner un-registers himself freely from the platform.
+     The free membership for project owners is the capability offered by the Secure Project Payment platform, to create payment projects and pay developers under the platform's terms and conditions accepted. It lasts until the project owner un-registers himself from the platform.
      </div>
   </div>
 </div>
 <div class="accordion-group">
   <div class="accordion-heading">
     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse19">
-    What is the difference between free and other kinds of memberships?
+    What is the difference between free membership and other kinds of membership?
     </a>
   </div>
   <div id="collapse19" class="accordion-body collapse">
@@ -508,19 +508,19 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
 <div class="accordion-group">
   <div class="accordion-heading">
     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse20">
-    What happen if my current membership ends?
+    What happens if my current membership ends?
     </a>
   </div>
   <div id="collapse20" class="accordion-body collapse">
      <div class="accordion-inner">
-     First you will be notified to upgrade your membership. If you don't answer after a few days you will pass automatically to the free membership affecting your service fees for future projects. Your current project will finish with the service fees of the original membership you had.
+     First you will be notified to upgrade your membership. If you don't answer after a few days you will automatically pass to free membership affecting your service fees for future projects. Your current project will finish with the service fees of the original membership you had.
      </div>
   </div>
 </div>
 <div class="accordion-group">
   <div class="accordion-heading">
     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse21">
-    What is the enterprise membership?
+    What is enterprise membership?
     </a>
   </div>
   <div id="collapse21" class="accordion-body collapse">
@@ -537,7 +537,7 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse22" class="accordion-body collapse">
      <div class="accordion-inner">
-     We offer Gateway3, Gateway6, Gateway12, Gateway18 and Gateway24 for 3, 6, 12, 18 and 24 months respectively. There is no free enterprise membership. The service fees are lower than other kind of Secure Project Payment memberships because you will only use a sub-set of our computing capabilities, no our user interface.
+     We offer Gateway3, Gateway6, Gateway12, Gateway18 and Gateway24 for 3, 6, 12, 18 and 24 months respectively. There is no free enterprise membership. The service fees are lower than other kinds of Secure Project Payment memberships because you will only use a sub-set of our computing capabilities, not our user interface.
      </div>
   </div>
 </div>
@@ -549,7 +549,7 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse23" class="accordion-body collapse">
      <div class="accordion-inner">
-     No, we are going to use Coinbase to dealing with payments. We are looking at payments as a project, not as Bitcoin payment transactions.
+     No, we are going to use Coinbase to deal with payments. We are looking at payments as a project, not as Bitcoin payment transactions.
      </div>
   </div>
 </div>
@@ -561,19 +561,19 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse24" class="accordion-body collapse">
      <div class="accordion-inner">
-     No, we are not dealing with deadlines. You need to organize your software project first. We are only focused on payments, no in the overall project control.
+     No, we are not dealing with deadlines. You need to organize your software project first. We are only focused on payments, not in the overall project control.
      </div>
   </div>
 </div>
 <div class="accordion-group">
   <div class="accordion-heading">
     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse25">
-    Can I create in Secure Project Payment a Bitcoin account? 
+    Can I create a Bitcoin account in Secure Project Payment? 
     </a>
   </div>
   <div id="collapse25" class="accordion-body collapse">
      <div class="accordion-inner">
-     No, you need a Bitcoin account already created to be a project owner or developer in Secure Project Payment Platform.     </div>
+     No, you need to have already created a Bitcoin account to be a project owner or developer in the Secure Project Payment Platform.     </div>
   </div>
 </div>
 	   
