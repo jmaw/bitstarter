@@ -58,55 +58,70 @@
       
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
-		  <p><b>Introduction to Secure Project Payment</b></p>
+		  <p><b>Introduction</b></p>
 		  <p> 
-		    Introduction to Secure Project Payment. Here is our motivation, the problems we are trying to solve to help people and the main project features.
+		    Introductory video about Secure project Payment Project. Here is our motivation, the problems we are trying to solve to help people and the main project features.
 		  </p>
-        </div> 
-
-        <div class="span5 asset">
-	   <div class="flex-video widescreen" >
-	   	<iframe width="450" height="300" src="https://www.youtube.com/embed/oOb0ZddGfxw" frameborder="1" allowfullscreen></iframe>
-           </div>
+		  
         </div>
-
+        <div class="span5 asset">
+          <img class="img-polaroid" src="images/480x300.png">
+        </div>
       </div>
-	  
-      <div class="row-fluid section2">
+
+      <div class="row-fluid section1">
+        <div class="span5 offset1 asset">
+          <img class="img-polaroid" src="images/480x300.png">
+        </div>
+        <div class="span5 copy">
+        <p><b>Bitcoin</b></p>
+		<p>A well-known introduction to Bitcoin, the virtual currency. <a target="_blank" href="http://www.bitcoinexchangerate.org/">Bitcoin exchange rate</a></p>
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
         <div class="span5 offset1 copy copy-right">
-		  <p><b>What is Bitcoin?</b></p>
-		  <p> 
-		    A well-known presentation about Bitcoin.
-		  </p>
+          <p><b>Create a Coinbase account</b></p>
+          <p>
+            Creating a coinbase account in few steps for support this crowdfunding.
+          </p>          
         </div>
         <div class="span5 asset">
-		   <div class="flex-video widescreen" >
-				<iframe width="450" height="300" src="https://www.youtube.com/embed/Um63OQz3bjo" frameborder="1" allowfullscreen></iframe>
-           </div>
+          <img class="img-polaroid" src="images/480x300.png">
         </div>
       </div>
 
-      <div class="row-fluid section2">
+
+      <div class="row-fluid section1">
+        <div class="span5 offset1 asset">
+          <img class="img-polaroid" src="images/480x300.png">
+        </div>
+        <div class="span5 copy">
+          <p><b>The project plan</b></p>
+          <p> 
+            How we are going to implement this project.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="row-fluid section1">
         <div class="span5 offset1 copy copy-right">
-		  <p><b>Bitcoin wallet operations</b></p>
-		  <p> 
-		    Video from Fred Ehrsam, Coinbase co-founder, explaining how to operate with Bitcoins from CoinBase.
-		  </p>
+          <p><b>About me</b></p>
+          <p>A litle bit about me.
+          </p>
         </div>
         <div class="span5 asset">
-		   <div class="flex-video widescreen" >
-				<iframe width="450" height="300" src="https://www.youtube.com/embed/IwZNkeeUv5E" frameborder="1" allowfullscreen></iframe>
-           </div>
+          <img class="img-polaroid" src="images/480x300.png">
         </div>
       </div>
-
 
 </div> <!-- container -->
 
 <div class="container">
       <div class="row-fluid footer">
         <div class="span12">
-          <p>Copyright &#169; 2013 Jose Manuel Ayala Wilson. All rights reserved.</p>
+          <p>Copyright &#169; 2013 Jose Manuel Ayala Wilson</p>
         </div>
       </div>
 </div>
