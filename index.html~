@@ -129,7 +129,7 @@
 <div class="row-fluid pitch">
    <div class="span5 offset1 video">
      <div id="video">
-         <iframe width="480" height="300" src="//www.youtube.com/embed/oOb0ZddGfxw" frameborder="0" allowfullscreen></iframe>
+         <iframe width="430" height="300" src="//www.youtube.com/embed/oOb0ZddGfxw" frameborder="0" allowfullscreen></iframe>
      </div>
    </div>
    <div class="span5">
