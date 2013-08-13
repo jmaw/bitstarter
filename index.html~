@@ -51,9 +51,11 @@
           <img class="brand"style="align:left;width:32px;height:32px;" src="images/spp-logo.png">  
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li class="active"><a href="index.html">Home</a></li>
+	      <li><a href="videos.html">Videos</a></li>
+              <li><a href="#">Updates</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -127,7 +129,7 @@
 <div class="row-fluid pitch">
    <div class="span5 offset1 video">
      <div id="video">
-         <iframe width="480" height="300" src="//www.youtube.com/embed/oOb0ZddGfxw" frameborder="0" allowfullscreen></iframe>
+         <iframe width="430" height="300" src="//www.youtube.com/embed/oOb0ZddGfxw" frameborder="0" allowfullscreen></iframe>
      </div>
    </div>
    <div class="span5">
