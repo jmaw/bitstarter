@@ -8,6 +8,7 @@ app.use("/resources/scripts", express.static(__dirname + '/resources/scripts'));
 app.use("/resources/buttons", express.static(__dirname + '/resources/buttons'));
 app.use("/images", express.static(__dirname + '/images'));
 app.use("/",express.static(__dirname + '/'));
+app.use("", express.static(__dirname));
 
 app.get('/', function(request, response) {
   var fs = require('fs');

@@ -36,9 +36,14 @@
             <ul class="nav">
               <li class="active"><a href="index.html">Home</a></li>
 			  <li><a href="#">Videos</a></li>
-              <li><a href="#">Updates</a></li>
+              <li><a href="http://secureprojectpayment.tumblr.com" target="_blank">Updates</a></li>
+<<<<<<< HEAD
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
+=======
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+>>>>>>> staging
             </ul>
           </div>
         </div>
@@ -67,7 +72,11 @@
 
         <div class="span5 asset">
 	   <div class="flex-video widescreen" >
+<<<<<<< HEAD
 	   	<iframe width="100%"  height="300px" src="https://www.youtube.com/embed/oOb0ZddGfxw" frameborder="1" allowfullscreen></iframe>
+=======
+	   	<iframe width="100%"  height="280px" src="https://www.youtube.com/embed/oOb0ZddGfxw" frameborder="1" allowfullscreen></iframe>
+>>>>>>> staging
            </div>
         </div>
 
@@ -82,7 +91,11 @@
         </div>
         <div class="span5 asset">
 	   <div class="flex-video widescreen" >
+<<<<<<< HEAD
 	     <iframe width="100%"  height="300px" src="https://www.youtube.com/embed/Um63OQz3bjo" frameborder="1" allowfullscreen></iframe>
+=======
+	     <iframe width="100%"  height="280px" src="https://www.youtube.com/embed/Um63OQz3bjo" frameborder="1" allowfullscreen></iframe>
+>>>>>>> staging
            </div>
         </div>
       </div>
@@ -96,7 +109,11 @@
         </div>
         <div class="span5 asset">
 	   <div class="flex-video widescreen" >
+<<<<<<< HEAD
 		<iframe width="100%" height="300px" src="https://www.youtube.com/embed/IwZNkeeUv5E" frameborder="1" allowfullscreen></iframe>
+=======
+		<iframe width="100%" height="280px" src="https://www.youtube.com/embed/IwZNkeeUv5E" frameborder="1" allowfullscreen></iframe>
+>>>>>>> staging
            </div>
         </div>
       </div>
