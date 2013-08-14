@@ -36,9 +36,14 @@
             <ul class="nav">
               <li class="active"><a href="index.html">Home</a></li>
 			  <li><a href="#">Videos</a></li>
-              <li><a href="#">Updates</a></li>
+              <li><a href="http://secureprojectpayment.tumblr.com" target="_blank">Updates</a></li>
+<<<<<<< HEAD
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
+=======
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+>>>>>>> develop
             </ul>
           </div>
         </div>
@@ -68,9 +73,9 @@
         <div class="span5 asset">
 	   <div class="flex-video widescreen" >
 <<<<<<< HEAD
-	   	<iframe width="100%" src="https://www.youtube.com/embed/oOb0ZddGfxw" frameborder="1" allowfullscreen></iframe>
+	   	<iframe width="100%"  height="300px" src="https://www.youtube.com/embed/oOb0ZddGfxw" frameborder="1" allowfullscreen></iframe>
 =======
-	   	<iframe width="450" height="300" src="https://www.youtube.com/embed/oOb0ZddGfxw" frameborder="1" allowfullscreen></iframe>
+	   	<iframe width="100%"  height="280px" src="https://www.youtube.com/embed/oOb0ZddGfxw" frameborder="1" allowfullscreen></iframe>
 >>>>>>> develop
            </div>
         </div>
@@ -81,16 +86,15 @@
         <div class="span5 offset1 copy copy-right">
 		  <p><b>What is Bitcoin?</b></p>
 		  <p> 
-		    A well-known presentation about Bitcoin.
+		    A well-known presentation about Bitcoin thanks to <a href="http://www.weusecoins.com/en/" target="_blank">weusecoins.com</a>.
 		  </p>
         </div>
         <div class="span5 asset">
-<<<<<<< HEAD
 	   <div class="flex-video widescreen" >
-	     <iframe width="100%" src="https://www.youtube.com/embed/Um63OQz3bjo" frameborder="1" allowfullscreen></iframe>
+<<<<<<< HEAD
+	     <iframe width="100%"  height="300px" src="https://www.youtube.com/embed/Um63OQz3bjo" frameborder="1" allowfullscreen></iframe>
 =======
-		   <div class="flex-video widescreen" >
-				<iframe width="450" height="300" src="https://www.youtube.com/embed/Um63OQz3bjo" frameborder="1" allowfullscreen></iframe>
+	     <iframe width="100%"  height="280px" src="https://www.youtube.com/embed/Um63OQz3bjo" frameborder="1" allowfullscreen></iframe>
 >>>>>>> develop
            </div>
         </div>
@@ -98,18 +102,17 @@
 
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
-		  <p><b>Bitcoin wallet operations</b></p>
+		  <p><b>Bitcoin Wallet</b></p>
 		  <p> 
-		    Video from Fred Ehrsam, Coinbase co-founder, explaining how to operate with Bitcoins from CoinBase.
+		    Fred Ehrsam, Coinbase co-founder, shows the CoinBase bitcoin wallet, the quotes and charts pages, how bitcoins can be bought, sold, and transferred, and how the service works for merchants to get paid in bitcoins or dollars. Thanks to Donald McIntyre from <a href="http://www.newfination.com/" target="_blank">Newfination</a>.
 		  </p>
         </div>
         <div class="span5 asset">
-<<<<<<< HEAD
 	   <div class="flex-video widescreen" >
-		<iframe width="100%" src="https://www.youtube.com/embed/IwZNkeeUv5E" frameborder="1" allowfullscreen></iframe>
+<<<<<<< HEAD
+		<iframe width="100%" height="300px" src="https://www.youtube.com/embed/IwZNkeeUv5E" frameborder="1" allowfullscreen></iframe>
 =======
-		   <div class="flex-video widescreen" >
-				<iframe width="450" height="300" src="https://www.youtube.com/embed/IwZNkeeUv5E" frameborder="1" allowfullscreen></iframe>
+		<iframe width="100%" height="280px" src="https://www.youtube.com/embed/IwZNkeeUv5E" frameborder="1" allowfullscreen></iframe>
 >>>>>>> develop
            </div>
         </div>
