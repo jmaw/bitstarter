@@ -7,11 +7,8 @@ app.use("/resources/fonts", express.static(__dirname + '/resources/fonts'));
 app.use("/resources/scripts", express.static(__dirname + '/resources/scripts'));
 app.use("/resources/buttons", express.static(__dirname + '/resources/buttons'));
 app.use("/images", express.static(__dirname + '/images'));
-<<<<<<< HEAD
 app.use("/",express.static(__dirname + '/'));
-=======
 app.use("", express.static(__dirname));
->>>>>>> develop
 
 app.get('/', function(request, response) {
   var fs = require('fs');
