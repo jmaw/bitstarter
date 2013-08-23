@@ -1,110 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <title>Secure Project Payment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
-    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
-          rel="stylesheet" type="text/css">
-    <style type="text/css">
-
-      /* Large desktop */
-      @media (min-width: 980px) { 
-        body {
-         padding-top: 60px;
-        }
-       .linediv-l {
-         border-right: 1px white solid;
-        }
-       .linediv-r {
-         border-left: 1px white solid;
-       }
+	
+	
+    <link  href="resources/css/bootstrap.css"          rel="stylesheet" type="text/css">
+    <link  href="resources/css/font-awesome.css"       rel="stylesheet" type="text/css">
+    <link  href="resources/css/client.css"             rel="stylesheet" type="text/css">
+		
+    <link  href="resources/buttons/social-buttons.css" rel="stylesheet" type="text/css">    
+	
+    <script src="resources/scripts/jquery.js"></script>
+    <script src="resources/scripts/bootstrap.js"></script> 
+	
+    <link href="resources/fonts/fonts1.css" rel="stylesheet" type="text/css">
+    <link href="resources/fonts/fonts2.css" rel="stylesheet" type="text/css">
+    <style>
+      div.addthis_toolbox {
+          width:180px;
+          margin: 0 auto;
       }
-
-      /* Landscape phones and down */
-      @media (max-width: 480px) { 
-       .copy {
-         padding: 2.5% 10%;
-       }
-       .linediv-l {
-         border-bottom: 1px white solid;
-       }
-       .linediv-r {
-         border-top: 1px white solid;
-       }
-      }
-
-      /* All form factors */
-
-      /* Main body and headings */
-      body{
-        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-      }
-      .heading, .subheading {
-        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-        text-align: center;
-      }
-      p.lead {
-        padding-top: 1.5%;
-        font-size: 24px;
-        line-height: 30px;
-      }
-      p {
-        font-size: 18px;
-        line-height: 24px;
-      }
-
-      /* Video pitch and Action */
-      .pitch {
-        padding: 2.5% 0%;
-      }
-      .order {
-        padding: 2% 0%;
-      }
-      .actions {
-        background-color: #343434;
-        padding: 3% 0%;
-      }
-      .video, .thermometer, .order, .social, .statistics {
-        text-align: center;
-      }
-      .statistics h3, .statistics p {
-        color: white;
-      }
-
-      /* Marketing Copy and Footer */
-      .copy {
-        padding-top: 2.5%;
-        padding-bottom: 2.5%;
-        text-align: justify;
-      }
-      .asset {
-        padding: 2.5% 0%;
-      }
-      .footer {
-        color: #cccccc;
-        text-align: center;
-      }
-      .footer p {
-        font-size: 11px;
-      }
-      .footer a {
-        color: #ccccff;
-      }
-
-     div.addthis_toolbox {
-      width: 174px;
-      margin: 0 auto;
-     }
-    </style>
-
-<script type="text/javascript">
+    </style>	
+   <script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-42979134-1']);
@@ -115,11 +35,12 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-  
-</script>
-  </head>
-  <body>
 
+  </script>
+  
+  </head>
+  <body style="">
+   
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -128,23 +49,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="/">
-             <img class="brand"style="align:left;width:32px;height:32px;" src="/images/spp-logo.png">  
+          <a href="index.html">
+             <img class="brand"style="align:left;width:32px;height:32px;" src="images/spp-logo.png">  
           </a>
           <div class="nav-collapse collapse">  
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-	          <li><a href="/videos">Videos</a></li>
+              <li class="active"><a href="index.html">Home</a></li>
+	          <li><a href="videos.html">Videos</a></li>
               <li><a href="http://secureprojectpayment.tumblr.com" target="_blank">Updates</a></li>
-              <li><a href="/orders">Orders</a></li>
-              <li><a href="/backers">Backers</a></li> 
-              <li><a href="/about">About</a></li>
-              <!-- li><a href="/contact">Contact</a></li -->
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
+    
 
     <div class="container">
       <div class="row-fluid heading">
@@ -157,75 +77,54 @@
           <p class="lead">Developers work and earn money, Project Owners pay and have benefits</p>
         </div>
       </div>
+     <!-- 
       <div class="row-fluid pitch">
-        <div class="span5 offset1">
-           <div class="flex-video widescreen">
-               <iframe width="100%" height="280px" src="https://www.youtube.com/embed/gFwZoR12PHM" frameborder="1" allowfullscreen>
-               </iframe>
-           </div> 
+        <div class="span5 offset1 video">
+          <img class="img-polaroid" src="images/collage2.png">
         </div>
-
-        <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
-
+       
         <div class="span5 actions">
-          <div class="row-fluid">
           <div class="span8 offset2">
-            <div class="row-fluid statistics">
+            <div class="statistics">
               <div class="span4">
-                <!-- linediv-l and linediv-r give dividing lines that look
-                different in horizontal and vertical layouts, illustrating
-                media queries. -->
                 <div class="linediv-l">
-                <h3> <%= cfcontrol.trans.length %></h3> <p>backers</p>
+                <h3>10</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3> <%= cfcontrol.balance %> </h3> <p>of <%= process.env.TOTAL_CROWDFUNDING %></p>
+                  <h3>1000 BTC</h3> <p>of 10,000 BTC</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-r">
-                <h3><%= cfcontrol.days %></h3> <p>days left</p>
+                <h3>30</h3> <p>days left</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row-fluid">
           <div class="span10 offset1">
-            <!-- Bootstrap progress bar -->
-            <!-- http://twitter.github.io/bootstrap/components.html#progress -->
             <div class="thermometer progress active">
-              <div id="cfsuccess" class="bar bar-success" style="width:<%= cfcontrol.success %>%;"></div>
-              <div id="cfwarning" class="bar bar-warning" style="width:<%= cfcontrol.warning %>%:"></div>
+              <div class="bar bar-success" style="width: 10%;"></div>
+              <div class="bar bar-warning" style="width: 90%;"></div>
             </div>
           </div>
-          </div>
-          <div class="row-fluid">
+          
           <div class="span6 offset3 order">
-            <div  style="text-align:center;margin:10%;"> 
-	    <a class="coinbase-button" data-code="6d2a1a38384088fdaf43a1d88c322a77" data-button-style="custom_large" href="https://coinbase.com/checkouts/6d2a1a38384088fdaf43a1d88c322a77">Pay With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
-            </div> 
-	  </div>
+            <a class="coinbase-button" data-code="6d2a1a38384088fdaf43a1d88c322a77" data-button-style="custom_large" href="https://coinbase.com/checkouts/6d2a1a38384088fdaf43a1d88c322a77">Pay With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
           </div>
-          <div class="row-fluid">
           <div class="span8 offset2 social">
-            <!-- AddThis Button BEGIN -->
-            <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+             
+             <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
                 <a class="addthis_button_preferred_1"></a>
                 <a class="addthis_button_preferred_2"></a>
                 <a class="addthis_button_compact"></a>
                 <a class="addthis_counter addthis_bubble_style"></a>
              </div>
              <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51fea3fa64fbb6a4"></script>
-            <!-- AddThis Button END -->
-          </div>
+             
           </div>
         </div>
-<<<<<<< HEAD:views/index.ejs
-        </div>
-      </div>
-=======
       </div> -->       
 
 <!-- ELIMINATE-BEGIN -->
@@ -245,11 +144,9 @@
 </div>
 
 <!-- ELIMINATE-END -->
->>>>>>> 97ba84821ef6ee51d8a6e118750626fefb496c28:index.html
 
-      <!-- Beyond this part the marketing copy begins. -->
 
-<div class="row-fluid section2">
+      <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
 		  <p><b>The freelance market</b></p>
 		  <p> According to Forbes, there is one important fact of the current and future job market—the state of the freelance market."The number of freelance workers is projected to outpace full-time workers by 2020.  The economy is rapidly shifting to a more contingent workforce, with recent estimates by the Freelancers Union of 42 million American independent workers, up from 10.3 million workers in 2005".</p>
@@ -577,7 +474,7 @@ If we trust in Bitcoin's operations and transactions, we are open to create more
   </div>
   <div id="collapse14" class="accordion-body collapse">
      <div class="accordion-inner">
-     Project owners can be: Free, Starter, Standard, Premium or V.I.P members
+     Project owners can be: Free, Starter, Medium, Premium or V.I.P members
      </div>
   </div>
 </div>
