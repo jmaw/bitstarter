@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Secure Project Payment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
+          rel="stylesheet" type="text/css">
+    <style type="text/css">
+
+      /* Large desktop */
+      @media (min-width: 980px) { 
+        body {
+         padding-top: 60px;
+        }
+       .linediv-l {
+         border-right: 1px white solid;
+        }
+       .linediv-r {
+         border-left: 1px white solid;
+       }
+      }
+
+      /* Landscape phones and down */
+      @media (max-width: 480px) { 
+       .copy {
+         padding: 2.5% 10%;
+       }
+       .linediv-l {
+         border-bottom: 1px white solid;
+       }
+       .linediv-r {
+         border-top: 1px white solid;
+       }
+      }
+
+      /* All form factors */
+
+      /* Main body and headings */
+      body{
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      }
+      .heading, .subheading {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        text-align: center;
+      }
+      p.lead {
+        padding-top: 1.5%;
+        font-size: 24px;
+        line-height: 30px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+      /* Video pitch and Action */
+      .pitch {
+        padding: 2.5% 0%;
+      }
+      .order {
+        padding: 2% 0%;
+      }
+      .actions {
+        background-color: #343434;
+        padding: 3% 0%;
+      }
+      .video, .thermometer, .order, .social, .statistics {
+        text-align: center;
+      }
+      .statistics h3, .statistics p {
+        color: white;
+      }
+
+      /* Marketing Copy and Footer */
+      .copy {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        text-align: justify;
+      }
+      .asset {
+        padding: 2.5% 0%;
+      }
+      .footer {
+        color: #cccccc;
+        text-align: center;
+      }
+      .footer p {
+        font-size: 11px;
+      }
+      .footer a {
+        color: #ccccff;
+      }
+
+     div.addthis_toolbox {
+      width: 174px;
+      margin: 0 auto;
+     }
+    </style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42979134-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+</script>
+  </head>
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/">
+             <img class="brand"style="align:left;width:32px;height:32px;" src="/images/spp-logo.png">  
+          </a>
+          <div class="nav-collapse collapse">  
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+	          <li><a href="/videos">Videos</a></li>
+              <li><a href="http://secureprojectpayment.tumblr.com" target="_blank">Updates</a></li>
+              <li><a href="/orders">Orders</a></li>
+              <li><a href="/backers">Backers</a></li> 
+              <li><a href="/about">About</a></li>
+              <!-- li><a href="/contact">Contact</a></li -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row-fluid heading">
+        <div class="span12">
+          <h1>Secure Project Payment</h1>
+        </div>
+      </div> 
+      <div class="row-fluid subheading">
+        <div class="span12">
+          <p class="lead">Developers work and earn money, Project Owners pay and have benefits</p>
+        </div>
+      </div>
+      <div class="row-fluid pitch">
+        <div class="span5 offset1">
+           <div class="flex-video widescreen">
+               <iframe width="100%" height="280px" src="https://www.youtube.com/embed/gFwZoR12PHM" frameborder="1" allowfullscreen>
+               </iframe>
+           </div> 
+        </div>
+
+        <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
+
+        <div class="span5 actions">
+          <div class="row-fluid">
+          <div class="span8 offset2">
+            <div class="row-fluid statistics">
+              <div class="span4">
+                <!-- linediv-l and linediv-r give dividing lines that look
+                different in horizontal and vertical layouts, illustrating
+                media queries. -->
+                <div class="linediv-l">
+                <h3> <%= cfcontrol.trans.length %></h3> <p>backers</p>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="linediv-c">
+                  <h3> <%= cfcontrol.balance %> </h3> <p>of <%= process.env.TOTAL_CROWDFUNDING %></p>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="linediv-r">
+                <h3><%= cfcontrol.days %></h3> <p>days left</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row-fluid">
+          <div class="span10 offset1">
+            <!-- Bootstrap progress bar -->
+            <!-- http://twitter.github.io/bootstrap/components.html#progress -->
+            <div class="thermometer progress active">
+              <div id="cfsuccess" class="bar bar-success" style="width:<%= cfcontrol.success %>%;"></div>
+              <div id="cfwarning" class="bar bar-warning" style="width:<%= cfcontrol.warning %>%:"></div>
+            </div>
+          </div>
+          </div>
+          <div class="row-fluid">
+          <div class="span6 offset3 order">
+            <div  style="text-align:center;margin:10%;"> 
+	    <a class="coinbase-button" data-code="6d2a1a38384088fdaf43a1d88c322a77" data-button-style="custom_large" href="https://coinbase.com/checkouts/6d2a1a38384088fdaf43a1d88c322a77">Pay With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+            </div> 
+	  </div>
+          </div>
+          <div class="row-fluid">
+          <div class="span8 offset2 social">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+                <a class="addthis_button_preferred_1"></a>
+                <a class="addthis_button_preferred_2"></a>
+                <a class="addthis_button_compact"></a>
+                <a class="addthis_counter addthis_bubble_style"></a>
+             </div>
+             <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51fea3fa64fbb6a4"></script>
+            <!-- AddThis Button END -->
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- Beyond this part the marketing copy begins. -->
+
+<div class="row-fluid section2">
+        <div class="span5 offset1 copy copy-right">
+		  <p><b>The freelance market</b></p>
+		  <p> According to Forbes, there is one important fact of the current and future job market—the state of the freelance market."The number of freelance workers is projected to outpace full-time workers by 2020.  The economy is rapidly shifting to a more contingent workforce, with recent estimates by the Freelancers Union of 42 million American independent workers, up from 10.3 million workers in 2005".</p>
+        </div>
+        <div class="span5 asset">
+          <img class="img-polaroid" src="images/freelancers.png">
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
+        <div class="span5 offset1 asset">
+          <img class="img-polaroid" src="images/freelance-union.png">
+        </div>
+        <div class="span5 copy">
+        <p><b>Delays in payments</b></p>
+        <p>"Delays in payment usually aren't deliberate on the client's part," notes Sara Horowitz, who founded and runs <a href="http://www.freelancersunion.org/" target="_blank">Freelancers Union</a>, an association that offers health insurance and other resources to the self-employed. "It's just that your invoices get lumped in with all the other accounts payable -- and, especially since the recession, more companies are pushing those out beyond 30 days to 60, or even 90." Intentional or not, she agrees with you that the damage to individuals' livelihoods is "not acceptable." 
+	</p>
+        </div>
+      </div>
+
+      <div class="row-fluid section1">
+        <div class="span5 offset1 copy copy-right">
+          <p><b>Freelancers losses</b></p>
+          <p>
+           According to Crain's New York Business: "it's an unfortunate fact that 42% of traditional freelancers in the USA, <a href="http://www.crainsnewyork.com/article/20100829/SMALLBIZ/308299994" target="_blank">are paid late or never at all, and lose $ 4.7 billion a year</a>".
+One recent study of self-employed people in New York state, found that 316,000 of them (about 35%) were paid late at least once during the preceding year, and some 214,000 (14%) did work for one or more clients who never paid them at all. 
+          </p>          
+        </div>
+        <div class="span5 asset">
+          <img class="img-polaroid" src="images/no-money.png">
+        </div>
+      </div>
+
+
+      <div class="row-fluid section1">
+        <div class="span5 offset1 asset">
+          <img class="img-polaroid" src="images/software-industry.png">
+        </div>
+        <div class="span5 copy">
+          <p><b>Freelancers in the Software Industry</b></p>
+          <p> 
+            In the software industry, freelance software developers never get paid on time and only 3.2% of freelance Web developers got paid on time during the year 2012 (Please see <a href="https://s3.amazonaws.com/ifdconference/2012report/Freelance+Industry+Report+2012+updated.pdf" target="_blank">2012 Freelance Industry Report by Ed Gandia</a>). This is terrible considering that IT spending is predicted to reach $3.7 trillion worldwide in 2013, a 2 percent increase over last year's levels, according to research firm Gartner.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="row-fluid section1">
+        <div class="span5 offset1 copy copy-right">
+          <p><b>Secure Project Payment</b></p>
+          <p>Secure Project Payment is a payment service on the Internet using Bitcoin. Its primary goal is to organize and control the payments in software projects, especially when we are using outsourcing or freelance developers. Its second goal is to protect both developers and project owners from cheating or unfair situations. And its third and very important goal is to empower the use of Bitcoin as a valid currency in transactions associated with software development projects by supporting the payment phase.     
+          </p>
+        </div>
+        <div class="span5 asset">
+          <img class="img-polaroid" src="images/spp.png">
+        </div>
+      </div>
+
+       <div class="row-fluid section1">
+        <div class="span5 offset1 asset">
+          <img class="img-polaroid" src="images/bitcoin5.png">
+        </div>
+        <div class="span5 copy">
+          <p><b>We trust in Bitcoin</b></p> 
+          <p> 
+If we trust in Bitcoin's operations and transactions, we are open to create more services and generate new values. We are putting a little bit of order to the chaos by making payments  more secure for both project owners and developers. Project owners  will have more options and broader horizons to combine skills, knowledge and prices with people from all over the world and Bitcoin will get credited as a valuable currency. Take a look at <a target="_blank" href="http://www.bitcoinexchangerate.org/">Bitcoin exchange rate</a>.
+          </p>
+        </div>
+      </div>
+</div> <!-- container -->
+
+<div class="gray_background">
+  <div class="container">
+  
+    <div class="row-fluid"> 
+        <div class="span10 offset1">
+            <div class="span6">
+			  <center>
+			  <img src="images/payment-icon.png" style="width:92px;height=92px"/>
+              <h2>Payment projects</h2>
+			  </center>
+              <p>Secure Project Payment is focused on payments schedules or how payments are made from one party to another. In this case, project owners can organize how to pay developers at different phases of the software project. We are not dealing with deadlines or critical path, normally considered by project development methodologies. We create a protocol to pay, once the job is done and accepted. </p>
+            </div><!--/span-->
+			<div class="span6">
+			  <center>
+			  <img src="images/calculator-icon.png" style="width:92px;height=92px"/>
+              <h2>Payment schedules</h2>
+			  </center>
+              <p>We support any traditional payment schedule: paying a deposit at the beginning, paying in every project milestone or paying at the end. All payments are regulated by the Secure Project Payment terms and conditions including cancellation policies to avoid cheating by project owners. </p>
+            </div><!--/span-->
+		</div>	
+	</div>	
+	
+    <div class="row-fluid"> 
+        <div class="span10 offset1">
+            <div class="span6">
+			  <center>
+			  <img src="images/waterfall-icon.png" style="width:64px;height=64px"/>
+              <h2>Waterfall projects</h2>
+			  </center>
+              <p>The <a href="http://en.wikipedia.org/wiki/Waterfall_model" target="_blank">waterfall model</a> is a sequential design process, often used in software development processes, in which progress is seen as flowing steadily downwards (like a waterfall) through the phases of Conception, Initiation, Analysis, Design, Construction, Testing, Deployment, and Maintenance. As all phases are related in a way the product is not ready until Deployment,then it's more likely to define payment milestones in certain phases or at the end of the project.</p>
+            </div><!--/span-->
+			<div class="span6">
+			  <center>
+			  <img src="images/agile-icon.png" style="width:72px;height=72px"/>
+              <h2>Agile projects</h2>
+			  </center>
+              <p><a href="http://en.wikipedia.org/wiki/Agile_software_development" target="_blank">Agile software development</a> is  based on iterative and incremental development, where requirements and solutions evolve through the collaboration between self-organizing, cross-functional teams. As the software product is practically finished in every iteration, it's easier to define payment milestones.</p>
+            </div><!--/span-->
+		</div>	
+	</div>	
+
+    <div class="row-fluid"> 
+        <div class="span10 offset1">
+            <div class="span6">
+			  <center>
+			  <img src="images/rules-icon.png" style="width:64px;height=64px"/>
+              <h2>Simple rules</h2>
+			  </center>
+              <p>There are two very simple rules we must follow: we have to do the job well if we want to get paid. And we have to pay money if we want to create value. Secure Project Payment will create a platform to enforce these rules. Developers will work calmly knowing that the reward for a job well done is protected. Project owners, knowing that their investment is protected from traps and trickery, will publish more projects.</p>
+            </div><!--/span-->
+			<div class="span6">
+			  <center>
+			  <img src="images/bitcoin3.png" style="width:128px;height=128px"/> 
+              <h2>Crowdfunding</h2>
+			  </center>
+              <p>If you would like to contribute and be part of Secure Project Payment, either because you are a developer, sick and tired of losing the result of your job, or you are a project manager who wants to pay projects using Bitcoin, or perhaps you are a simply Bitcoin lover and want to contribute to empower the use of this revolutionary currency, you will be welcome.</p>
+            </div><!--/span-->
+		</div>	
+	</div>	
+	
+  </div>
+</div>
+
+<!-- NEW FAQ TITLE -->
+
+<div class="container">
+ <div class="row-fluid faq">
+    <div class="span4 offset1">
+       <h3>FAQ</h3>
+    </div>			
+ </div>	
+</div>	
+
+<!-- NEW FAQ QUESTIONS -->
+		
+<div class="container">
+  <div class="row-fluid faq">
+    <div class="span10 offset1">
+	   <div class="span6">
+	   <div class="accordion" id="accordion4">
+	   
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse1">
+    What is Secure Project Payment?
+    </a>
+  </div>
+  <div id="collapse1" class="accordion-body collapse">
+     <div class="accordion-inner">
+     Secure Project Payment is a payment service on the Internet based on Bitcoin. Its primary goal is to organize and control the payments in software projects, especially when we are using outsourcing or freelance developers. Its second goal is to protect both developers and project owners from cheating or unfair situations. And its third and very important goal is to empower the use of Bitcoin as a valid currency in transactions associated with software development projects by supporting the payment phase. If we trust in Bitcoin's operations and transactions, we are open to create more services and generate new values. We are putting a little bit of order to the chaos by making people trust in Bitcoin. 
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse2">
+    What advantages do I have as project owner?
+    </a>
+  </div>
+  <div id="collapse2" class="accordion-body collapse">
+     <div class="accordion-inner">
+       <ul>
+     <li>Create payment projects or projects to pay developers when they successfully accomplish their job</li><li>Organize payments to different developers in different project phases</li><li>Establish terms and conditions that everyone must accept before doing the job</li><li>Accept or reject payment requests in coordination with software project managers</li><li>Service fees are the lowest in the market</li><li>Payment fees are the lowest in the market</li><li>Dashboards and reports to track the state of payments for every project</li>
+       </ul>
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse3">
+    What advantages do I have as software developer?
+    </a>
+  </div>
+  <div id="collapse3" class="accordion-body collapse">
+     <div class="accordion-inner">
+     <ul>
+     <li>Work only after they agree with payment conditions</li><li>Post payment requests after they have successfully accomplished their job </li><li>Receive payments absolutely free (no service or payment fees for developers)</li><li> Be protected by cancellation policies once the project is active and at least one milestone or phase was successfully accomplished and accepted</li>
+     </ul>
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse4">
+    What is a payment project?
+    </a>
+  </div>
+  <div id="collapse4" class="accordion-body collapse">
+     <div class="accordion-inner">
+     A payment project is an organized way to pay developers using Bitcoin when they accomplish successfully different project phases or milestones in a software development project.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse5">
+    What is the difference between payment projects and software development projects?
+    </a>
+  </div>
+  <div id="collapse5" class="accordion-body collapse">
+     <div class="accordion-inner">
+     A software development project creates the software product following any well-known project development methodology. The payment project is only to pay developers during or at the end of the software development project.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse6">
+    Can we pay in any other currency than Bitcoin?
+    </a>
+  </div>
+  <div id="collapse6" class="accordion-body collapse">
+     <div class="accordion-inner">
+     Secure Project Payment is a platform to empower and facilitates the use of the Bitcoin as a currency in project payments.Given the opportunity of using Bitcoin, in a secure and organized way to both project owners and developers, we open up new possibilities for software project creation, we are contributing to the use of outsourcing and freelance development and we are moving the money to and from any place in the world helping to generate value.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse7">
+    What kind of project methodology is supported?
+    </a>
+  </div>
+  <div id="collapse7" class="accordion-body collapse">
+     <div class="accordion-inner">
+     The payment project phases or milestones support any project development methodology. For instance, if you are using a waterfall methodology and you want to pay developers at the end of the project when all the jobs are done, you can create only one payment milestone.If you are using an agile methodology and you want to pay developers in every iteration or sprint, you can create several payment milestones.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse8">
+    What is the limit of payment milestones we can create?
+    </a>
+  </div>
+  <div id="collapse8" class="accordion-body collapse">
+     <div class="accordion-inner">
+     No limit. It depends on the duration and scope of your software project.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse9">
+    How many developers can I associate to a payment project?
+    </a>
+  </div>
+  <div id="collapse9" class="accordion-body collapse">
+     <div class="accordion-inner">
+     You can associate any developers to the payment project. It depends on the needs and scope of your software project. Also you can associate different developers to different payment milestones.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse10">
+    Can I eliminate developers from my payment project?
+    </a>
+  </div>
+  <div id="collapse10" class="accordion-body collapse">
+     <div class="accordion-inner">
+     Absolutely, but following the Secure Project Payment cancellation policies that protect the developers from cheating or unfair situations.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse11">
+    What are the cancellation policies?
+    </a>
+  </div>
+  <div id="collapse11" class="accordion-body collapse">
+     <div class="accordion-inner">
+     The cancellation policies are rules established by the Secure Project Payment platform just to protect developers and project owners. The cancellation policies are part of the terms and conditions that you must accept to register as a user, no matter your role or membership.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse12">
+    What is a service fee?
+    </a>
+  </div>
+  <div id="collapse12" class="accordion-body collapse">
+     <div class="accordion-inner">
+     A service fee is what the project owners have to pay for platform services according to their membership. Those services include the organization of your payment projects, the payment scheme selection, addition or removal of developers, acceptance or refusal of payment requests, to keep a log of every transaction, receive email notifications at every step of the process, dashboards and reports of all current or accomplished projects, etc.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse13">
+    What is a payment fee?
+    </a>
+  </div>
+  <div id="collapse13" class="accordion-body collapse">
+     <div class="accordion-inner">
+     A payment fee is what the project owners have to pay for Bitcoin service payments (transfers) as in any other payment method or payment platform (VISA, MasterCard, PayPal, etc.)
+     </div>
+  </div>
+</div>	   
+	   
+	   </div>
+	  </div> <!-- span5 -->
+	  
+	   <div class="span6">
+	   <div class="accordion" id="accordion4">
+	   
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse14">
+    What kind of membership is available for project owners?
+    </a>
+  </div>
+  <div id="collapse14" class="accordion-body collapse">
+     <div class="accordion-inner">
+     Project owners can be: Free, Starter, Standard, Premium or V.I.P members
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse15">
+    What kind of membership is available for developers?
+    </a>
+  </div>
+  <div id="collapse15" class="accordion-body collapse">
+     <div class="accordion-inner">
+     Only one: free membership!
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse16">
+    Can the developer be a company?
+    </a>
+  </div>
+  <div id="collapse16" class="accordion-body collapse">
+     <div class="accordion-inner">
+     Yes, of course. Developer is a role in the platform reserved for the entity that does the job and collects the money.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse17">
+    What is the free membership for developers?
+    </a>
+  </div>
+  <div id="collapse17" class="accordion-body collapse">
+     <div class="accordion-inner">
+     The free membership for developers is the capability offered by the Secure Project Payment platform, to collect the money and accept the terms and conditions that regulate the payments. It lasts until the developer un-registers himself from the platform.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse18">
+    What is the free membership for project owners?
+    </a>
+  </div>
+  <div id="collapse18" class="accordion-body collapse">
+     <div class="accordion-inner">
+     The free membership for project owners is the capability offered by the Secure Project Payment platform, to create payment projects and pay developers under the platform's terms and conditions accepted. It lasts until the project owner un-registers himself from the platform.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse19">
+    What is the difference between free membership and other kinds of membership?
+    </a>
+  </div>
+  <div id="collapse19" class="accordion-body collapse">
+     <div class="accordion-inner">
+     The difference is the service fees. If you pay for your membership you will pay fewer fees for every payment project.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse20">
+    What happens if my current membership ends?
+    </a>
+  </div>
+  <div id="collapse20" class="accordion-body collapse">
+     <div class="accordion-inner">
+     First you will be notified to upgrade your membership. If you don't answer after a few days you will automatically pass to free membership affecting your service fees for future projects. Your current project will finish with the service fees of the original membership you had.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse21">
+    What is enterprise membership?
+    </a>
+  </div>
+  <div id="collapse21" class="accordion-body collapse">
+     <div class="accordion-inner">
+     The enterprise membership is for companies wanting to create their own payment platform or simply add the Secure Payment Platform features to their established payment platforms.If you want to create an iPhone application other than ours for project payments, you can use our public interface to do it.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse22">
+    What kind of enterprise membership is available?
+    </a>
+  </div>
+  <div id="collapse22" class="accordion-body collapse">
+     <div class="accordion-inner">
+     We offer Gateway3, Gateway6, Gateway12, Gateway18 and Gateway24 for 3, 6, 12, 18 and 24 months respectively. There is no free enterprise membership. The service fees are lower than other kinds of Secure Project Payment memberships because you will only use a sub-set of our computing capabilities, not our user interface.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse23">
+    Is Secure Project Payment a payment Gateway? 
+    </a>
+  </div>
+  <div id="collapse23" class="accordion-body collapse">
+     <div class="accordion-inner">
+     No, we are going to use Coinbase to deal with payments. We are looking at payments as a project, not as Bitcoin payment transactions.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse24">
+    Is Secure Project Payment a project management tool? 
+    </a>
+  </div>
+  <div id="collapse24" class="accordion-body collapse">
+     <div class="accordion-inner">
+     No, we are not dealing with deadlines. You need to organize your software project first. We are only focused on payments, not in the overall project control.
+     </div>
+  </div>
+</div>
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse25">
+    Can I create a Bitcoin account in Secure Project Payment? 
+    </a>
+  </div>
+  <div id="collapse25" class="accordion-body collapse">
+     <div class="accordion-inner">
+     No, you need to have already created a Bitcoin account to be a project owner or developer in the Secure Project Payment Platform.     </div>
+  </div>
+</div>
+	   
+	   </div>
+	  </div> <!-- span5 -->
+	  
+	   
+	</div> 
+  </div>
+</div>
+
+
+<div class="container">
+      <div class="row-fluid footer">
+        <div class="span12">
+          <p>Copyright &#169; 2013 Jose Manuel Ayala Wilson. All rights reserved.</p>
+        </div>
+      </div>
+</div>
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-42979134-1', 'secureprojectpayment.com');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
